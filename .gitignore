@@ -3,13 +3,13 @@ __pycache__/
 .env
 *.pyc
 
-models/
-datasets/raw/
-datasets/processed/
-datasets/train/
-datasets/validation/
-datasets/test/
+#models/
+#datasets/raw/
+#datasets/processed/
+#datasets/train/
+#datasets/validation/
+#datasets/test/
 
-wandb/
-mlruns/
-outputs/
+#wandb/
+#mlruns/
+#outputs/
