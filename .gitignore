@@ -1,0 +1,16 @@
+# Secrets and local state. Never commit this file.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+exports/
+data/
+coverage.xml
+htmlcov/
