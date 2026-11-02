@@ -75,6 +75,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      target: base
     image: io-agent:latest
     env_file:
       - .env
